@@ -2,4 +2,4 @@
   become: yes
   tasks:
     - name: installing container
-      shell: docker run -itd --name raju -p 9000:80 deadlybala123/nodeapp1
+      shell: docker run -itd --name raju -p 8081:80 deadlybala123/nodeapp1
